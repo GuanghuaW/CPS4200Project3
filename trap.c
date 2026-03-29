@@ -10,7 +10,7 @@
 
 // CPS4200
 // Declare the external variable and function
-int page_allocator_type;
+extern int page_allocator_type;
 int mappages(pde_t *pgdir, void *va, uint size, uint pa, int perm);
 
 // Interrupt descriptor table (shared by all CPUs).
